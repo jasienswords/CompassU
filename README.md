@@ -14,7 +14,7 @@ and the merit award the student qualifies for.
 index.html              self-contained app (all markup, logic, fonts and images inlined)
 manifest.webmanifest    PWA manifest — name, colors, icons, standalone display
 sw.js                   service worker — cache-first app shell, offline capable
-icons/                  192 / 512 / 1024 px icons, maskable variant, apple-touch, favicon
+icon-*.png              192 / 512 / 1024 px icons, maskable variant, apple-touch, favicon
 .nojekyll               tells GitHub Pages to serve files starting with _ verbatim
 ```
 
