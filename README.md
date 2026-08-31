@@ -1,4 +1,4 @@
-# Housing Compass
+# CompassU
 
 A single-page PWA that matches a Fall 2027 freshman housing + dining plan across the
 University of Kansas, the University of Arkansas, and Oklahoma State University.
@@ -20,22 +20,22 @@ icons/                  192 / 512 / 1024 px icons, maskable variant, apple-touch
 
 ## Publish on GitHub Pages
 
-1. Create a repository (e.g. `housing-compass`).
+1. Repository: **`CompassU`**.
 2. Copy the **contents of this folder** into the repository root and push:
    ```bash
    git init
    git add .
-   git commit -m "Housing Compass PWA"
+   git commit -m "CompassU PWA"
    git branch -M main
-   git remote add origin git@github.com:<you>/housing-compass.git
+   git remote add origin git@github.com:jasienswords/CompassU.git
    git push -u origin main
    ```
 3. **Settings → Pages → Build and deployment → Source: Deploy from a branch**,
    branch `main`, folder `/ (root)`. Save.
-4. The app appears at `https://jasienswords.github.io/housing-compass/` within a minute or two.
+4. The app appears at `https://jasienswords.github.io/CompassU/` within a minute or two.
 
 All paths in the manifest, service worker and HTML are relative (`./`), so the app
-works from a project subpath — no configuration needed for the `/housing-compass/`
+works from a project subpath — no configuration needed for the `/CompassU/`
 prefix that GitHub Pages adds.
 
 ## Install on iPhone
@@ -50,7 +50,7 @@ On Android/Chrome, use **⋮ → Install app**.
 
 `index.html` is a compiled bundle. After replacing it:
 
-1. Bump `CACHE_VERSION` in `sw.js` (e.g. `housing-compass-v2`) — otherwise returning
+1. Bump `CACHE_VERSION` in `sw.js` (e.g. `compassu-v2`) — otherwise returning
    visitors keep the cached copy.
 2. Commit and push. The new service worker activates on the next visit.
 
