@@ -32,7 +32,7 @@ icons/                  192 / 512 / 1024 px icons, maskable variant, apple-touch
    ```
 3. **Settings → Pages → Build and deployment → Source: Deploy from a branch**,
    branch `main`, folder `/ (root)`. Save.
-4. The app appears at `https://<you>.github.io/housing-compass/` within a minute or two.
+4. The app appears at `https://jasienswords.github.io/housing-compass/` within a minute or two.
 
 All paths in the manifest, service worker and HTML are relative (`./`), so the app
 works from a project subpath — no configuration needed for the `/housing-compass/`
