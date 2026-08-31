@@ -1,6 +1,6 @@
 /* CompassU — service worker
    Cache-first app shell. Bump CACHE_VERSION whenever index.html is rebuilt. */
-const CACHE_VERSION = 'compassu-v5';
+const CACHE_VERSION = 'compassu-v7';
 const SHELL = [
   './',
   './index.html',
