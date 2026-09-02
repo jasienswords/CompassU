@@ -1,6 +1,6 @@
 /* CompassU — service worker
    Cache-first app shell. Bump CACHE_VERSION whenever index.html is rebuilt. */
-const CACHE_VERSION = 'compassu-v18';
+const CACHE_VERSION = 'compassu-v20';
 const SHELL = [
   './',
   './index.html',
@@ -9,7 +9,15 @@ const SHELL = [
   './icon-512.png',
   './maskable-512.png',
   './apple-touch-icon.png',
-  './favicon-32.png'
+  './favicon-32.png',
+  './ku-sig.png',
+  './ku-letters.png',
+  './jayhawk.png',
+  './ua-letter-a.png',
+  './hog-head.png',
+  './osu-letters.png',
+  './osu-mark.png',
+  './pete.png'
 ];
 
 self.addEventListener('install', (event) => {
